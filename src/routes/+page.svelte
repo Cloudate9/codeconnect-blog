@@ -34,7 +34,6 @@
     <h2 class="text-md">Updates about Code Connect, all in one place</h2>
 </div>
 
-{posts.length}
 <div>
     <!-- This should get the info we fetch from pocketbase -->
     {#each posts as post (post.id)}

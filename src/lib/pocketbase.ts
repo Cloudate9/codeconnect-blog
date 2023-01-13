@@ -1,9 +1,8 @@
 import PocketBase from "pocketbase"
-// import { POCKETBASE_SERVER } from "$env/static/private"
 import { writable } from "svelte/store"
 
 
-export const pb = new PocketBase("http://127.0.0.1:8090")
+export const pb = new PocketBase("http://127.0.0.1:8090") // Note that we will have to change this if we don't use the default port
 export const currentUser = writable(pb.authStore.model)
 
 pb.authStore.onChange((auth) => {
