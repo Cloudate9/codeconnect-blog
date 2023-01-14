@@ -2,7 +2,7 @@
     import "../app.css"
 </script>
 
-<div class="bg-zinc-700 text-slate-200">
+<div class="min-h-screen bg-zinc-800 text-slate-200">
 
     <nav>
         <!-- TODO Nav Bar with Adimn login-->
