@@ -1,7 +1,7 @@
 export interface Post {
-    id: string
-    created: string
-    title: string
-    author: string
-    mdContent: string
+	id: string
+	created: string
+	title: string
+	author: string
+	mdContent: string
 }

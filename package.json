@@ -40,7 +40,7 @@
 		"svelte-markdown": "^0.2.3"
 	},
 	"lint-staged": {
-		"*.{js, jsx, ts, tsx, svelte, json}": [
+		"*.{cjs, js, jsx, ts, tsx, svelte, json}": [
 			"eslint --fix",
 			"prettier --write"
 		]
